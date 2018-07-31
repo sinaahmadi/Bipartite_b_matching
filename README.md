@@ -31,7 +31,7 @@ In order to initialize an object of the `WBbM` class, you need to pass the follo
 - (optional) `LogToConsole=0` enables you to have the computation details of Gorubi in your console.
 
 ### Example
-In the `main.py`contains an example. A bipartite weighted graph is created with random weights [0-10], using NetworkX, and an optimal solution for the WBbM algorithm is found using the `WBbM` class. The following figures show the output of the algorithm for matching edges over a specific threshold. The figures in left show the graph with a weight over the threshold and those in right show the matched output. 
+In the `main.py`contains an example. A bipartite weighted graph is created with random weights [0-10], using NetworkX, and an optimal solution for the WBbM algorithm is found using the `WBbM` class. The following figures show the output of the algorithm for matching edges over a specific threshold. The figures in left show the graph with a weight over the threshold 9 and those in right show the matched outputs. Note that the graphs in the two figures do not have the same weights.
 - Model parameters: lda=0, uda=2, udp=2, ldp=0.
 ![WBbM_1](https://github.com/sinaahmadi/Bipartite_b_matching/blob/master/figures/figure_0220.png)
 
