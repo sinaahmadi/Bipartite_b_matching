@@ -109,7 +109,7 @@ class WBbM:
            
         status = m.status
         if status == GRB.Status.UNBOUNDED:
-            print('The model cannot be solved because it is unbounded')
+            print 'The model cannot be solved because it is unbounded'
         elif status == GRB.Status.OPTIMAL:
             print('The optimal objective is %g' % m.objVal)
         elif status != GRB.Status.INF_OR_UNBD and status != GRB.Status.INFEASIBLE:
