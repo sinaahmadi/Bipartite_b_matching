@@ -44,6 +44,18 @@ In the `main.py`contains an example. A bipartite weighted graph is created with 
 - [Numpy](http://www.numpy.org/)
 - [NetworkX](http://networkx.github.io/)
 
+If you use the code in this repository, please cite the following paper:
+
+```
+@inproceedings{ahmadi2019lexical,
+  title={Lexical sense alignment using weighted bipartite b-matching},
+  author={Ahmadi, Sina and Arcan, Mihael and McCrae, John},
+  organization={2nd Conference on Language, Data and Knowledge (LDK 2019)},
+  year={2019},
+  booktitle={Proceedings of the LDK 2019 Workshops}
+}
+```
+
 ### References
 [1] Ahmed, Faez, John P. Dickerson, and Mark Fuge. "Diverse weighted bipartite b-matching." arXiv preprint arXiv:1702.07134 (2017).
 
